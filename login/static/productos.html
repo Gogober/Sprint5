@@ -1,0 +1,177 @@
+<html>
+<head>
+    <script>
+        
+          //alert("Quieres ingresar a productos?");
+        
+    </script>
+    
+    <script type="text/javascript" src ="../static/js/scrips.js"></script>
+    <style>
+        
+        #encabezado{
+            width: 1400px;
+            height: 150px;
+            background-color: blanchedalmond;
+            margin: auto;
+            background-image: url("img/i.jpeg");
+            background-size: 50%;
+        }
+        #menu{
+            width: 1400px;
+            height: 10px;
+            background-color: rgba(8, 8, 8, 0.938);
+            margin: auto;
+        }
+        #cuerpo{
+            
+            width: 1400px;
+            height: 800px;
+            background-color: rgb(241, 148, 8);
+            margin: auto;
+        }
+        #pie{
+            width: 1400px;
+            height: 80px;
+            background-color: rgb(16, 161, 245);
+            margin: auto;
+        }
+        
+        #com1{
+
+          height: 42px;
+          font-size: 18px;
+          border: 0;
+          padding-left: 20px;
+          border-radius: 5px;
+          padding-top: 30px;
+        }
+
+        #com2{
+
+        height: 42px;
+        font-size: 18px;
+        border: 0;
+        padding-left: 450px;
+        border-radius: 5px;
+        padding-top: 0px;
+        }
+
+        #com3{
+
+height: 42px;
+font-size: 18px;
+border: 0;
+padding-left: 900px;
+border-radius: 5px;
+padding-top: 0px;
+}
+
+
+
+
+    </style>
+</head>
+
+<body bgcolor="white" >
+    
+<div id="encabezado"></div>
+<div id="menu"></div>
+<div id="cuerpo">
+    <FONT FACE="times new roman" SIZE=6 COLOR="#327B32">
+        Deliciosas galletas para disfrutar en navidad</FONT>
+        <br>
+        <br>
+
+    
+        <input type="button" name="" id="resultado" value="Haz tu pedido" >
+
+    <br>
+    <br>
+    <br>
+  
+
+  <div id="com1" >
+    <img src="../static/img/g1.jpeg" id="img_com1">
+    <h1>Combo velitas</h1>
+    </div>
+
+  
+  <div id="com2" >
+    <img src="../static/img/g2.jpeg" id="img_com1">
+    <h1>Combo aguinaldos</h1>
+    </div>
+
+    <div id="com3" >
+      <img src="../static/img/g3.jpeg" id="img_com1">
+      <h1>Combo niño Dios</h1>
+      </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+        
+<form action="/action_page.php">
+  <label for="pro1">productos: </label>
+  <select class="form-select" aria-label="Default select example" id="op1">
+    <option value="0" selected >Seleccione Combo</option>
+    <option value="1">Combo Velitas </option>
+    <option value="2">Combo aguinaldos</option>
+    <option value="3">Combo niño Dios</option>
+  </select>
+  <label for="cantidad">Cantidad </label>
+  <input type="number" id="cantidad1" name="cantidad" placeholder="cantidad" value="0"><br><br>
+
+
+  <label for="pro2">productos: </label>
+  <select class="form-select" aria-label="Default select example" id="op2">
+    <option value="0" selected >Seleccione Combo</option>
+    <option value="1">Combo Velitas </option>
+    <option value="2">Combo aguinaldos</option>
+    <option value="3">Combo niño Dios</option>
+  </select>
+  <label for="cantidad">Cantidad </label>
+  <input type="number" id="cantidad2" name="cantidad" placeholder="cantidad" value="0"><br><br>
+
+
+  <label for="pro3">Productos: </label>
+  <select class="form-select" aria-label="Default select example" id="op3">
+    <option value="0" selected >Seleccione Combo</option>
+    <option value="1">Combo Velitas </option>
+    <option value="2">Combo aguinaldos</option>
+    <option value="3">Combo niño Dios</option>
+  </select>
+  
+  <label for="cantidad">Cantidad </label>
+  <input type="number" id="cantidad3" name="cantidad" placeholder="cantidad" value="0"><br><br>
+</form>
+
+Total a pagar. <p id="total1" ><b>o</b></p>
+<button onclick="total()" id="total"   class="btn btn-primary" >Calcular</button>
+
+
+
+
+
+
+
+</div>
+<div id="pie">
+    
+
+</div>
+</body>
+
+</html>
